@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="images/logo.jpg" />
+    <title>Prime Sales</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Prime Sales</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="basket.html">Basket</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="food.html">Food</a></li>
+              <li><a class="dropdown-item" href="clothings.html">Clothings</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="electronics.html">Electronics</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="payment.html" tabindex="-1" aria-disabled="true">Payment</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <img src="images/Background.jpg"
+  style="width: 100%;" height="400">
+   <div>
+    <div class="container">
+
+      
+    <h2>Available Products</h2>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/ps5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">PlayStation 5</h5>
+                <p class="card-text">£382.00</p>
+                <button onclick="addToBasket('PlayStation 5', 382.00)" class="btn btn-primary">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/Macbook.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Apple MacBook Air</h5>
+                <p class="card-text">£999.00</p>
+                <button onclick="addToBasket('Apple MacBook Air', 999.00)" class="btn btn-primary">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/Niketracksuite.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike Tracksuit</h5>
+                <p class="card-text">£165.00</p>
+                <button onclick="addToBasket('Nike Tracksuit', 165.00)" class="btn btn-primary">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/iphone15pro.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Apple iPhone 15 Pro 256GB</h5>
+                <p class="card-text">£897.99</p>
+                <button onclick="addToBasket('Apple iPhone 15 Pro 256GB', 897.99)" class="btn btn-primary">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/tracksuite.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Adidas Tracksuit Originals</h5>
+                <p class="card-text">£65.00</p>
+                <button onclick="addToBasket('Adidas Tracksuit Originals', 65.00)" class="btn btn-primary">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/Hamburger.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Beef Burger</h5>
+                <p class="card-text">£4.99</p>
+                <button onclick="addToBasket('Beef Burger', 4.99)" class="btn btn-primary">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/adidas.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Adidas Shoe Originals</h5>
+                <p class="card-text">£85.00</p>
+                <button onclick="addToBasket('Adidas Shoe Originals', 85.00)" class="btn btn-primary">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/chicken.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Crispy Fried Chicken</h5>
+                <p class="card-text">£6.99</p>
+                <button onclick="addToBasket('Crispy Fried Chicken', 6.99)" class="btn btn-primary">Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/Oreo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Oreo Biscuit</h5>
+                <p class="card-text">£6.88</p>
+                <button onclick="addToBasket('Oreo Biscuit', 6.88)" class="btn btn-primary">Add to cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/crocs.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Crocs Classic</h5>
+                <p class="card-text">£34.50</p>
+                <button onclick="addToBasket('Crocs Classic', 34.50)" class="btn btn-primary">Add to cart</button>
+              </div>
+            </div>
+        </div>
+      </div>
+
+
+      
+      <footer class="panel panel-default">
+        <p>&copy; Prime Sales 2024|</p>
+      </footer>
+
+      <script>
+        function addToBasket(productName, price) {
+          let basketItems = JSON.parse(sessionStorage.getItem('basketItems')) || [];
+
+          basketItems.push({ name: productName, price: price });
+ 
+          sessionStorage.setItem('basketItems', JSON.stringify(basketItems));
+    
+          alert(`Added ${productName} to basket.`);
+        }
+      </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        
+</body>
+
+</html>
