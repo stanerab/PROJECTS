@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand {
+    color: #645555;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #615a5a !important;
+}
+
+#basket {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: px;
+}
+
+#basket h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#basketItems {
+    list-style-type: none;
+    padding: 0;
+}
+
+#basketItems li {
+    margin-bottom: 10px;
+}
+
+#total {
+    font-weight: bold;
+}
+
+#products {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#products h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#productList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#productList li {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    resize: none;
+    }
