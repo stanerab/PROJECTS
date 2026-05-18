@@ -4,7 +4,7 @@ Prime Sales is a responsive frontend e-commerce web application designed to show
 
 ## Live Demo
 
-https://adhd.infinityfree.me/Primesales/home.html?i=1
+https://primesales.blueprintcaretech.com/home.html
 
 ## Features
 
